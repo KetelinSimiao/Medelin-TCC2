@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+TZ+Guides&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+    header{
+        background: #EEAECA;
+background: linear-gradient(126deg, rgba(238, 174, 202, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        color: white;
+        padding:  20px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 15px;
+        }
+ 
+        nav{ 
+            text-decoration: none;
+display: flex;
+flex-direction: row;
+justify-content: center;            
+        }
+.logo{
+font-size: 20       px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.logo > p {
+font-family: "Edu NSW ACT Cursive", cursive;   
+  font-size: 25px;
+}
